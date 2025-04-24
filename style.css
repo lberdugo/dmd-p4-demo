@@ -1,0 +1,52 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    margin: auto;
+    padding: 0;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+}
+
+canvas{
+    display: block;
+    margin: auto;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#homepage{
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 40px;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+a:hover{
+    color:indianred;
+}
+
+a{
+    color:lightblue;
+}
